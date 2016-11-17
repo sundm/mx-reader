@@ -1,0 +1,15 @@
+package com.jwsmart.util.pboc;
+
+import java.util.Map;
+
+import com.jwsmart.util.def.CardDef;
+
+public class PbocOffLineResp {
+	public int code;
+	public String errorInfo;
+	public Map<String, String> pbocMap;
+	public PbocOffLineResp() {
+		code = CardDef.CARD_FAIL;
+		errorInfo = "未识别卡片";
+	}
+}	

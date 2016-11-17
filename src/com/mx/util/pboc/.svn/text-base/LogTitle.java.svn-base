@@ -1,0 +1,10 @@
+package com.jwsmart.util.pboc;
+
+public class LogTitle{
+	public LogTitle(String szTitle,int nLen) {
+		m_szTitle = szTitle;
+		m_nLen = nLen;
+	}
+	public String m_szTitle;
+	public int m_nLen;
+}
